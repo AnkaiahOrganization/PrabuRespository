@@ -3,9 +3,9 @@ pipeline {
     label 'jdk8'
   }
   stages {
-    stage('Hello World') {
+    stage(' Hello World') {
       steps {
-        echo 'Thank Antony for your help'
+        echo "Hello ${MY_NAME}"
         sh 'java -version'
       }
     }
